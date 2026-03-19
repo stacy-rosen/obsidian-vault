@@ -1,0 +1,17 @@
+# Obsidian
+.obsidian/
+!.obsidian/
+# Allow the folder but not temp files
+.obsidian/workspace
+.obsidian/*.md
+*.md.sw*
+*.md.orig
+*~
+
+# System
+.DS_Store
+Thumbs.db
+
+# Plugins that shouldn't sync
+plugins/
+data.json
